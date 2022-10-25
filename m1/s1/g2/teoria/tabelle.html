@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        table{
+            border: 1px;
+        }
+    </style>
+    <table>
+        <caption>descrivo di cosa si tratta</caption>
+        <thead>
+        <tr>
+            <td>Nome</td>
+            <td>Cognome</td>
+            <td>Anni</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Marco</td>
+            <td>Beschi</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>luca</td>
+            <td>nori</td>
+            <td>30</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td> numero utenti </td>
+                <td colspan="2">2</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <td>1</td>
+            <td rowspan="2">2-5</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td colspan="2">7-8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+<!--tag form-->
+<form>
+ <input type="text" placeholder="Inserisci il nome">
+ <input type="password" placeholder="password">
+ <input type="number" placeholder="numero">
+<hr>
+<label for="consenso">accetto il trattamento dei dati</label>
+<input id="consenso" type="checkbox"> 
+<hr>
+ <select>
+    <option value="">--</option>
+    <option value="Roma">Roma</option>
+    <option value="Milano">Milano</option>
+    <option value="Napoli">Napoli</option>
+ </select>
+ <hr>
+<textarea cols="30" rows="10"></textarea>
+
+<button>invia</button>
+
+
+</form>
+</body>
+</html> 
