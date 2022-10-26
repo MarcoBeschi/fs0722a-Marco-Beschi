@@ -1,0 +1,62 @@
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%
+}
+
+.center#img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%
+}
+
+#inizio{
+    color: rgb(15, 176, 15); background-color:rgba(255,255,0,0.2);
+    margin-top: 25px; margin-bottom: 25px; padding: 20px 700px 20px 700px;
+
+}
+
+h1{
+    margin-left: 600px;
+    margin-right: 500px;
+    display: block;
+}
+
+.center#nome-immagine{
+    font-family: Arial, Helvetica, sans-serif;
+   opacity:0.5;
+   margin-left: 900px;
+}
+
+#description{
+    display: flex;
+    justify-content: center;
+}
+
+#fresh.center{
+color: orange;
+margin-left: 500px;
+font-weight: bolder;
+}
+
+hr{
+   opacity: 0.2;
+   color: aqua;
+}
+
+.center#ingredients{
+    font-size:large;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#border{
+    font-weight:bold;
+}
+
+div span#description{
+   margin-left: 400px;
+   margin-right: 400px;
+}
