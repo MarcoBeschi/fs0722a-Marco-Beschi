@@ -1,0 +1,152 @@
+img{
+    max-width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #393d41;
+    text-align: center;
+    line-height: 1.65;
+
+}
+
+h1, h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #25a2c3;
+    line-height: 1.5;
+}
+
+
+h1{
+    font-weight: bolder;
+    font-size: 1.8rem;
+    padding-top: 20px;
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding-top: 20px;
+    color: white;
+
+}
+
+header{
+    background-color:black ;
+    text-align: center;
+}
+
+header img{
+    max-width: 50%;
+    max-height: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.inizio{
+    background-image:url(../FE-S1-P-Esercizio/images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 60px;
+}
+
+#partiamo{
+    background-color: #f04c2f;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 10%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+h1 + p{
+    padding: 30px;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.centrale{
+    padding: 30px;
+}
+
+.centrale p{
+    padding-top: 20px;
+}
+
+#notebook{
+    border-radius: 50%;
+    padding: 30px;
+}
+
+#testimonianze, #testimonianze h1{
+    background-color: #e22d0e;
+    color: white;
+}
+
+.italic{
+    font-style: italic;
+    padding: 30px;
+}
+
+.min{
+    font-size: 0.7rem;
+    padding-bottom: 20px;
+}
+
+.link{
+    margin: 50px;
+    border:#dee1e3 solid;
+    border-radius: 3%;
+}
+
+#collegamenti{
+    font-family: 'Open Sans', sans-serif;
+    color: #25a2c3;
+    line-height: 1.5;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.link p{
+    padding: 20px;
+}
+
+footer{
+    background-color: #25a2c3;
+    text-decoration:none;
+    color:#c8e7f0;
+}
+
+.finepagina{
+    padding: 30px;
+    color:#c8e7f0;
+}
+
+#contatti{
+    color:#c8e7f0;
+}
+
+div #contatti2{
+    text-decoration: none;
+    color:#c8e7f0;
+    text-decoration: underline;
+}
+
+.rigafinale{
+    padding: 30px;
+    border-top: 1px solid white;
+}
