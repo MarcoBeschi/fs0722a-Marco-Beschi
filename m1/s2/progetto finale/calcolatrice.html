@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="calcolatrice.css">
+</head>
+<body>
+    <div class="contenitore">
+        <input type="text" id="numeri"><br>
+        <div class="tasto" data-simbolo="1" onclick="aggiungiCifra(this)">1</div>
+        <div class="tasto"  data-simbolo="2"  onclick="aggiungiCifra(this)">2</div>
+        <div class="tasto"  data-simbolo="3"  onclick="aggiungiCifra(this)">3</div>
+        <div class="tasto"  data-simbolo="/"  onclick="aggiungiCifra(this)">/</div><br>
+        <div class="tasto"  data-simbolo="4"  onclick="aggiungiCifra(this)">4</div>
+        <div class="tasto"  data-simbolo="5"  onclick="aggiungiCifra(this)">5</div>
+        <div class="tasto"  data-simbolo="6"  onclick="aggiungiCifra(this)">6</div>
+        <div class="tasto"  data-simbolo="-"  onclick="aggiungiCifra(this)">-</div><br>
+        <div class="tasto"  data-simbolo="7"  onclick="aggiungiCifra(this)">7</div>
+        <div class="tasto"  data-simbolo="8"  onclick="aggiungiCifra(this)">8</div>
+        <div class="tasto"  data-simbolo="9"  onclick="aggiungiCifra(this)">9</div>
+        <div class="tasto"  data-simbolo="+"  onclick="aggiungiCifra(this)">+</div><br>
+        <div class="tasto" data-simbolo="CE" onclick="cancella(this)">CE</div>
+        <div class="tasto"  data-simbolo="0"  onclick="aggiungiCifra(this)">0</div>
+        <div class="tasto"  data-simbolo="." onclick="aggiungiCifra(this)">.</div>
+        <div class="tasto"  data-simbolo="*"  onclick="aggiungiCifra(this)">x</div>
+        <div class="tasto"  data-simbolo="C" onclick="cancellaTutto(this)">C</div>
+        <div class="uguale" onclick="tot()">=</div>
+
+    </div>
+
+    <script>
+        function aggiungiCifra(elemento) {
+            let cifra = elemento.getAttribute('data-simbolo')
+            document.getElementById('numeri').value += cifra
+        }
+
+        function tot(){
+            let numeri = document.getElementById('numeri');
+            numeri.value = eval(numeri.value)
+        }
+        function cancellaTutto() { 
+            document.getElementById("numeri").value = ""; 
+        }
+
+        function isSymbol(s){
+            let simboli = ['*','/','+','-'];
+            return simboli.includes(s);
+        }
+
+        function cancella() {
+         let temp = document.getElementById("numeri").value;
+         document.getElementById("numeri").value = temp.substring(0, temp.length-1);
+        }
+
+
+    </script>
+</body>
+</html>

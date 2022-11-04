@@ -1,0 +1,48 @@
+.tasto:active {color: #000; background-color: grey;}
+.uguale:active {color: #000; background-color: grey;}
+
+.contenitore{
+    text-align: center;
+    background-color:rgba(145, 139, 139, 0.267);
+    margin: auto;
+    width: 250px;
+    border: 1px solid grey;
+    border-radius: 5%;
+}
+
+.tasto {
+    background-color: #a5cff3 ;
+    color: #175c97;
+    font-size: 22pt;
+    border: 1px solid blue;
+    margin: 4px 2px;
+    height: 40px;
+    width: 46px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.uguale {
+    background-color: #a5cff3;
+    color: #175c97;
+    font-size: 22pt;
+    border: 1px solid blue;
+    margin: 4px 2px;
+    height: 40px;
+    width: 160px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#numeri {
+    background-color: black;
+    color: white;
+    height: 25px;
+    width: 200px;
+    font-size:1.3rem;
+    margin-top: 5px;
+    cursor: not-allowed;
+}
+
