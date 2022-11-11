@@ -12,51 +12,73 @@ REGOLE
 /* ESERCIZIO A
   Crea una variabile chiamata "sum" e assegnaci il risultato della somma tra i valori 10 e 20.
 */
-
+let x = 10
+let y = 20
+let sum = x + y
 /* ESERCIZIO B
   Crea una variabile chiamata "random" e assegnaci un numero casuale tra 0 e 20 (deve essere generato dinamicamente a ogni esecuzione).
 */
+let random = Math.round(Math.random() * 20);
 
 /* ESERCIZIO C
   Crea una variabile chiamata "me" e assegnaci un oggetto contenente le seguenti proprietà: name = il tuo nome, surname = il tuo cognome, age = la tua età.
 */
-
+let me = { nome: "Marco", cognome: "Beschi", età: 25 }
 /* ESERCIZIO D
   Crea del codice per rimuovere programmaticamente la proprietà "age" dall'oggetto precedentemente creato.
 */
-
+delete me["età"]
 /* ESERCIZIO E
   Crea del codice per aggiungere programmaticamente all'oggetto precedentemente creato un array chiamato "skills", contenente i linguaggi di programmazione che conosci.
 */
-
+const skills = ["Javascript"];
+me.push(skills)
 /* ESERCIZIO F
   Crea un pezzo di codice per aggiungere un nuovo elemento all'array "skills" contenuto nell'oggetto "me".
 */
-
+skills.push('nuovo elemento')
 /* ESERCIZIO G
   Crea un pezzo di codice per rimuovere programmaticamente l'ultimo elemento dall'array "skills" contenuto nell'oggetto "me".
 */
-
+skills.splice(skills.length - 1);
 // Funzioni
 
 /* ESERCIZIO 1
   Crea una funzione chiamata "dice": deve generare un numero casuale tra 1 e 6.
 */
-
+function dice(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+let random1 = dice(1, 6);
 /* ESERCIZIO 2
   Crea una funzione chiamata "whoIsBigger" che riceve due numeri come parametri e ritorna il maggiore dei due.
 */
-
+function whoIsBigger(n, m) {
+  if (n > m) { return n }
+  else { return m }
+}
 /* ESERCIZIO 3
   Crea una funzione chiamata "splitMe" che riceve una stringa come parametro e ritorna un'array contenente ogni parola della stringa.
 
   Es.: splitMe("I love coding") => ritorna ["I", "Love", "Coding"]
 */
+function splitMe(stringa) {
+  stringa = 'i love coding'
+  return stringa.split(" ");
+}
+
 
 /* ESERCIZIO 4
   Crea una funzione chiamata "deleteOne" che riceve una stringa e un booleano come parametri.
   Se il valore booleano è true la funzione deve ritornare la stringa senza il primo carattere, altrimenti la deve ritornare senza l'ultimo.
 */
+function deleteOne(stringa, bool) {
+  if (bool == true) {
+    return stringa.slice(1, stringa.length);
+  } else {
+    return stringa.slice(0, stringa.length - 1);
+  }
+}
 
 /* ESERCIZIO 5
   Crea una funzione chiamata "onlyLetters" che riceve una stringa come parametro e la ritorna eliminando tutte le cifre numeriche.
@@ -67,11 +89,19 @@ REGOLE
 /* ESERCIZIO 6
   Crea una funzione chiamata "isThisAnEmail" che riceve una stringa come parametro e ritorna true se la stringa è un valido indirizzo email.
 */
-
+function isThisAnEmail(email) {
+  let mail = document.createElement("input");
+  mail.setAttribute("type", "email");
+  mail.value = email;
+  return input.checkValidity();
+}
 /* ESERCIZIO 7
   Scrivi una funzione chiamata "whatDayIsIt" che ritorna il giorno della settimana corrente.
 */
-
+function whatDayIsIt() {
+  const date = new Date();
+  return date;
+}
 /* ESERCIZIO 8
   Scrivi una funzione chiamata "rollTheDices" che riceve un numero come parametro.
   Deve invocare la precedente funzione dice() il numero di volte specificato nel parametro, e deve tornare un oggetto contenente una proprietà "sum":
@@ -88,11 +118,23 @@ REGOLE
 /* ESERCIZIO 9
   Scrivi una funzione chiamata "howManyDays" che riceve una data come parametro e ritorna il numero di giorni trascorsi da tale data.
 */
-
+function howManyDays(data) {
+  data = new Date()
+  let data2 = new Date()
+  data2.setMonth(6)
+  return data - data2
+}
 /* ESERCIZIO 10
   Scrivi una funzione chiamata "isTodayMyBirthday" che deve ritornare true se oggi è il tuo compleanno, falso negli altri casi.
 */
 
+function isTodayMyBirthday(compleanno) {
+  compleanno = new Date("1997-06-06");
+  dataOggi = new Date();
+  if (dataOggi == compleanno.getMonth(5) && dataOggi == compleanno.getDay(6)) { alert('Buon compleanno') }
+  else { alert('Non è il tuo compleanno') }
+}
+isTodayMyBirthday()
 // Arrays & Oggetti
 
 // NOTA: l'array "movies" usato in alcuni esercizi è definito alla fine di questo file
@@ -105,27 +147,59 @@ REGOLE
 /* ESERCIZIO 12
   Scrivi una funzione chiamata "newestMovie" che trova il film più recente nell'array "movies" fornito.
 */
-
+function newestMovie(arr) {
+  let i = 0;
+  let max = 1000;
+  for (let film of arr) {
+    if (film.year > max) {
+      max = film.year;
+      i = arr.indexOf(film);
+    }
+  }
+}
 /* ESERCIZIO 13
   Scrivi una funzione chiamata countMovies che ritorna il numero di film contenuti nell'array "movies" fornito.
 */
-
+function countMovies(array) {
+  return array.length;
+}
+countMovies(movies)
 /* ESERCIZIO 14
   Scrivi una funzione chiamata "onlyTheYears" che crea un array con solamente gli anni di uscita dei film contenuti nell'array "movies" fornito.
 */
-
+function onlyTheYears(arr) {
+  let year = [];
+  for (let film of movies) {
+    year.push(film.Year);
+  }
+  return Year;
+}
 /* ESERCIZIO 15
   Scrivi una funzione chiamata "onlyInLastMillennium" che ritorna solamente i film prodotto nel millennio scorso contenuti nell'array "movies" fornito.
 */
-
+function onlyInLastMillennium(arr) {
+  return arr.filter((movies) => {
+    return movies.Year <= 2000;
+  });
+}
 /* ESERCIZIO 16
   Scrivi una funzione chiamata "sumAllTheYears" che ritorna la somma di tutti gli anni in cui sono stati prodotti i film contenuti nell'array "movies" fornito.
 */
-
+function sumAllTheYears(array) {
+  let s = 0;
+  for (let film of movies) {
+    s += film.Year;
+  }
+  return s;
+}
 /* ESERCIZIO 17
   Scrivi una funzione chiamata "searchByTitle" che riceve una stringa come parametro e ritorna i film nell'array "movies" fornito che la contengono nel titolo.
 */
-
+function searchByWord(str, array) {
+  return array.filter((film) => {
+    return film.Title.includes(str);
+  });
+}
 /* ESERCIZIO 18
   Scrivi una funzione chiamata "searchAndDivide" che riceve una stringa come parametro e ritorna un oggetto contenente due array: "match" e "unmatch".
   "match" deve includere tutti i film dell'array "movies" fornito che contengono la stringa fornita all'interno del proprio titolo, mentre "unmatch" deve includere tutti i rimanenti.
@@ -140,31 +214,58 @@ REGOLE
 /* ESERCIZIO 20
   Scrivi una funzione per selezionare l'elemento dotato di id "container" all'interno della pagina.
 */
-
+function search() {
+  let src = document.querySelector('#container');
+  return src;
+}
 /* ESERCIZIO 21
   Scrivi una funzione per selezionare ogni tag <td> all'interno della pagina.
 */
-
+function trova() {
+  let src = document.getElementsByTagName('td');
+  return src
+}
 /* ESERCIZIO 22
   Scrivi una funzione che, tramite un ciclo, stampa in console il testo contenuto in ogni tag <td> all'interno della pagina.
 */
-
+function testo() {
+  var contenuto = document.getElementsByTagName('td');
+  for (var i = 0; i < contenuto.length; i++) {
+    console.log(contenuto[i])
+  }
+}
 /* ESERCIZIO 23
   Scrivi una funzione per aggiungere un background di colore rosso a ogni link all'interno della pagina.
 */
-
+const paintItRed = function () {
+  var x = document.querySelectorAll("link");
+  for (let i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "red";
+  }
+}
 /* ESERCIZIO 24
   Scrivi una funzione per aggiungere un nuovo elemento alla lista non ordinata con id "myList".
 */
-
+function add(content) {
+  var div = document.querySelector('#myList'),
+    li = document.createElement("li");
+  li.innerHTML = 'nuovo elemento';
+  div[0].append(li);
+}
 /* ESERCIZIO 25
   Scrivi una funzione per svuotare la lista non ordinata con id "myList".
 */
-
+function remove() {
+  var myList = document.getElementById('myList');
+  myList.innerHTML = '';
+}
 /* ESERCIZIO 26
   Scrivi una funzione per aggiungere ad ogni tag <tr> la classe CSS "test"
 */
-
+function aggiungiClasse() {
+  let elemento = document.getElementsByTagName("tr");
+  elemento.classList.add("test");
+}
 // [EXTRA] JS Avanzato
 
 /* ESERCIZIO 27
