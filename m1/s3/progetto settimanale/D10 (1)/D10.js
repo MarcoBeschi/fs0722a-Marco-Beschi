@@ -124,6 +124,7 @@ function howManyDays(data) {
   data2.setMonth(6)
   return data - data2
 }
+howManyDays=(howManyDays())/(1000*60*60*24)
 /* ESERCIZIO 10
   Scrivi una funzione chiamata "isTodayMyBirthday" che deve ritornare true se oggi è il tuo compleanno, falso negli altri casi.
 */
@@ -208,7 +209,10 @@ function searchByWord(str, array) {
 /* ESERCIZIO 19
   Scrivi una funzione chiamata "removeIndex" che riceve un numero come parametro e ritorna l'array "movies" fornito privo dell'elemento nella posizione ricevuta come parametro.
 */
-
+function removeIndex(a) {
+  movies.splice(a, 1);
+  return movies;
+}
 // DOM (nota: gli elementi che selezionerai non si trovano realmente nella pagina)
 
 /* ESERCIZIO 20
@@ -237,8 +241,8 @@ function testo() {
 /* ESERCIZIO 23
   Scrivi una funzione per aggiungere un background di colore rosso a ogni link all'interno della pagina.
 */
-const paintItRed = function () {
-  var x = document.querySelectorAll("link");
+const coloreRed = function () {
+  var x = document.querySelectorAll("a");
   for (let i = 0; i < x.length; i++) {
     x[i].style.backgroundColor = "red";
   }
