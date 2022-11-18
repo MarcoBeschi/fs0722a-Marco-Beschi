@@ -24,12 +24,10 @@ function area(l1, l2){
  La funzione deve ritornare la somma dei due parametri, ma se il valore dei due parametri è il medesimo deve invece tornare
  la loro somma moltiplicata per tre.
 */
-function crazySum(a=5,b=5){
-    let c= a+b;
-if(a === b){c*3}
-return c
+function crazySum(n, m) {
+    if (n == m) { return 6 * n; }
+    else { return n + m; }
 }
-c = crazySum()
 
 
 /* SCRIVI QUI LA TUA RISPOSTA */
@@ -38,7 +36,10 @@ c = crazySum()
  Scrivi una funzione di nome "crazyDiff" che calcola la differenza assoluta tra un numero fornito come parametro e 19.
  Deve inoltre tornare la differenza assoluta moltiplicata per tre qualora il numero fornito sia maggiore di 19.
 */
-
+function crazyDiff(n) { 
+    if (n > 19) { return 3 * (n - 19); }
+    else { return n - 19; }
+}
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 4
@@ -56,20 +57,36 @@ function boundary(n){Boolean(
  La funzione deve aggiungere la parola "EPICODE" all'inizio della stringa fornita, ma se la stringa fornita comincia già con "EPICODE" allora deve
  ritornare la stringa originale senza alterarla.
 */
-
+let epi = "EPICODE";
+function epify(str) {
+    let textStr = str.substring(0, 7); //prende la sottostringa dei primi 6 caratteri
+    if (textStr != epi) { return str = epi + str; }
+    else return str;
+}
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 6
  Scrivi una funzione di nome "check3and7" che accetta un numero positivo come parametro. La funzione deve controllare che il parametro sia un multiplo
  di 3 o di 7. (Suggerimento: usa l'operatore modulo)
 */
-
+function check3and7(n) { 
+    if (n % 3 == 0 || n % 7 == 0) { console.log("divisibile"); }
+    else { console.log("non divisibile"); }
+}
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 7
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
 */
-
+function reverseString(str) {
+    let strReversed=[]; //serve a contenere i caratteri di str in ordine inverso
+    let rev = ""; //conterrà la stringa invertita
+    for (let i = 0; i < str.length; i++) { 
+        strReversed[i] = str[str.length - 1 - i];
+        rev += strReversed[i];    
+    }
+    return rev;
+}
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 8
@@ -89,5 +106,11 @@ function boundary(n){Boolean(
 /* ESERCIZIO 10
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
 */
-
+function giveMeRandom(n) { 
+    let arr = [];
+    for (i = 0; i < n; i++) { 
+        arr[i] = Math.random()*10;
+    }
+    return arr;
+}
 /* SCRIVI QUI LA TUA RISPOSTA */
