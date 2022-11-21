@@ -1,0 +1,135 @@
+nav li{
+    display:inline;
+}
+
+fieldset input{
+    display: inline;
+    width: 150px;
+}
+
+#novità{
+    background-color: rgb(167, 167, 167);
+    color: rgb(45, 44, 44);
+    text-transform: capitalize;
+}
+
+article img{
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (min-width:768px){
+    body{
+        font-size: 2rem;
+    }
+    h1{
+        font-size: 5rem;
+        width: 70%;
+    }
+
+    h2{
+        color: #333;
+        font-size: 2.6rem;
+        font-weight: bold;
+    }
+
+    table {
+        margin: auto;
+        margin-bottom: 70px;
+        width: 65%;
+    }
+    fieldset input{
+        display: inline;
+        width: 80%;
+        height: 40px;
+    }
+    fieldset button{
+        width: 100px;
+        height: 40px;
+    }
+    section{
+        height: 30%;
+    }
+    
+    
+}
+
+@media screen and (min-width:1200px){
+    header{
+        height: 100px;
+        padding: 15px 30px 15px 30px;
+    }
+    header img{
+        float: left;
+    }
+    header p{
+        float: left;
+        margin:25px auto;
+    }
+
+    nav{
+     margin-top: 20px;
+     align-content:flex-end;
+    }
+
+    nav ul{
+        float: right;
+    }
+
+    h1{
+        font-size: 6rem;
+        width: 100%;
+    }
+
+    iframe{
+        width: 50%;
+        display: inline;
+        height: 250px;
+    }
+    section{
+        width: 50%;
+        float: right;
+        height: 250px;
+        border-radius:20px;
+    }
+
+    table{
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 75%;
+    }
+
+    aside div{
+        display: inline-block;
+        width: 33%;
+        margin-right: -4px;
+    }
+
+    
+}
+
+@media print{
+    body{
+        background-color: white;
+        text-decoration: none;
+    }
+
+    table + tr + th + tbody{
+        background-color: white;
+        color: black;
+        border: black;
+    }
+    iframe{
+        display: none;
+    }
+    section{
+        display: none;
+    }
+    aside{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+}
