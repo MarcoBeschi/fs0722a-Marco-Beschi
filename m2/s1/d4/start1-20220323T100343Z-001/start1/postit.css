@@ -1,0 +1,144 @@
+body {
+    font: 2rem "Indie Flower";
+    background-color: grey;
+}
+
+.postIt {
+    margin: 30px;
+    position: relative;
+    float: left;
+    top: 130px;
+    width: 20%;
+    height: 250px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 60px;
+    box-shadow: 4px 4px 10px black;
+}
+
+.postIt h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.postIt:nth-child(odd) {
+    background-image: linear-gradient(rgb(213, 220, 150), rgb(66, 63, 63));
+}
+
+.postIt:nth-child(even) {
+    background-image: linear-gradient(rgb(189, 233, 157), rgb(66, 63, 63));
+}
+
+.postIt:nth-child(3n) {
+    background-image: linear-gradient(rgb(221, 190, 240), rgb(66, 63, 63));
+}
+
+#postIt_1 {
+    transform: rotate(-2deg);
+    animation-name: postIt1;
+    animation-duration: 0.5s;
+    animation-delay: 3.5s;
+    animation-iteration-count: 1;
+}
+
+#postIt_2 {
+    transform: rotate(6deg);
+    animation-name: postIt2;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+
+}
+
+#postIt_3 {
+    transform: rotate(-6deg);
+    animation-name: postIt3;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+}
+
+#postIt_4 {
+    transform: rotate(7deg);
+    animation-name: postIt4;
+    animation-duration: 0.5s;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+
+}
+
+#postIt_5 {
+    transform: rotate(-4deg);
+    animation-name: postIt5;
+    animation-duration: 0.5s;
+    animation-delay: 1.5s;
+    animation-iteration-count: 1;
+
+}
+
+#postIt_6 {
+    transform: rotate(-10deg);
+    animation-name: postIt6;
+    animation-duration: 0.5s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+
+}
+
+#postIt_7 {
+    transform: rotate(7deg);
+    animation-name: postIt7;
+    animation-duration: 0.5s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+
+}
+
+#postIt_8 {
+    transform: rotate(-4deg);
+    animation-name: postIt8;
+    animation-duration: 0.5s;
+    animation-delay: 2.5s;
+    animation-iteration-count: 1;
+
+}
+   
+
+#postIt_1:hover, #postIt_2:hover, #postIt_3:hover, #postIt_4:hover, #postIt_5:hover, #postIt_6:hover, #postIt_7:hover, #postIt_8:hover {
+    transform: scale(1.3);
+    z-index: 1;
+}
+
+@keyframes postIt1{
+    0% {transform: scale(8);opacity:0; }
+    100% {transform: scale(1);opacity: 1;}
+}
+@keyframes postIt2{
+    0% {transform: scale(8);opacity:0; }
+    100% {transform: scale(1);opacity: 1;}
+}
+@keyframes postIt3{
+    0% {transform: scale(8);opacity:0; }
+    100% {transform: scale(1);opacity: 1;}
+}
+
+@keyframes postIt4{
+    0% {transform: scale(8);opacity:0; }
+    100% {transform: scale(1);opacity: 1;}
+}
+@keyframes postIt5{
+    0% {transform: scale(8);opacity:0; }
+    100% {transform: scale(1);opacity: 1;}
+}
+@keyframes postIt6{
+    0% {transform: scale(8);opacity:0; }
+    100% {transform: scale(1);opacity: 1;}
+}
+@keyframes postIt7{
+    0% {transform: scale(8);opacity:0; }
+    100% {transform: scale(1);opacity: 1;}
+}
+@keyframes postIt8{
+    0% {transform: scale(8);opacity:0; }
+    100% {transform: scale(1);opacity: 1;}
+}
