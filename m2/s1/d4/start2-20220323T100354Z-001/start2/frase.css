@@ -27,7 +27,7 @@
     animation-name: transition;
     animation-duration: 6s;
     animation-iteration-count: infinite;
-    left:750px;
+   
 }
 #second{
     position: absolute;
@@ -36,7 +36,7 @@
     animation-duration: 6s;
     animation-delay: 2s;
     animation-iteration-count: infinite;
-    left:750px;
+    
     
 }
 #third{
@@ -46,7 +46,7 @@
     animation-duration: 6s;
     animation-delay: 4s;
     animation-iteration-count: infinite;
-    left:750px;
+    
 }
 
 @keyframes transition {

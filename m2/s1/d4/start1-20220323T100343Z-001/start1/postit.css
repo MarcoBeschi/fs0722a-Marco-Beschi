@@ -35,7 +35,7 @@ body {
 
 #postIt_1 {
     transform: rotate(-2deg);
-    animation-name: postIt1;
+    animation-name: postIt;
     animation-duration: 0.5s;
     animation-delay: 3.5s;
     animation-iteration-count: 1;
@@ -43,7 +43,7 @@ body {
 
 #postIt_2 {
     transform: rotate(6deg);
-    animation-name: postIt2;
+    animation-name: postIt;
     animation-duration: 0.5s;
     animation-delay: 1s;
     animation-iteration-count: 1;
@@ -52,7 +52,7 @@ body {
 
 #postIt_3 {
     transform: rotate(-6deg);
-    animation-name: postIt3;
+    animation-name: postIt;
     animation-duration: 0.5s;
     animation-delay: 0.5s;
     animation-iteration-count: 1;
@@ -60,7 +60,7 @@ body {
 
 #postIt_4 {
     transform: rotate(7deg);
-    animation-name: postIt4;
+    animation-name: postIt;
     animation-duration: 0.5s;
     animation-delay: 3s;
     animation-iteration-count: 1;
@@ -69,7 +69,7 @@ body {
 
 #postIt_5 {
     transform: rotate(-4deg);
-    animation-name: postIt5;
+    animation-name: postIt;
     animation-duration: 0.5s;
     animation-delay: 1.5s;
     animation-iteration-count: 1;
@@ -78,7 +78,7 @@ body {
 
 #postIt_6 {
     transform: rotate(-10deg);
-    animation-name: postIt6;
+    animation-name: postIt;
     animation-duration: 0.5s;
     animation-delay: 2s;
     animation-iteration-count: 1;
@@ -87,7 +87,7 @@ body {
 
 #postIt_7 {
     transform: rotate(7deg);
-    animation-name: postIt7;
+    animation-name: postIt;
     animation-duration: 0.5s;
     animation-delay: 4s;
     animation-iteration-count: 1;
@@ -96,7 +96,7 @@ body {
 
 #postIt_8 {
     transform: rotate(-4deg);
-    animation-name: postIt8;
+    animation-name: postIt;
     animation-duration: 0.5s;
     animation-delay: 2.5s;
     animation-iteration-count: 1;
@@ -109,36 +109,7 @@ body {
     z-index: 1;
 }
 
-@keyframes postIt1{
-    0% {transform: scale(8);opacity:0; }
-    100% {transform: scale(1);opacity: 1;}
-}
-@keyframes postIt2{
-    0% {transform: scale(8);opacity:0; }
-    100% {transform: scale(1);opacity: 1;}
-}
-@keyframes postIt3{
-    0% {transform: scale(8);opacity:0; }
-    100% {transform: scale(1);opacity: 1;}
-}
-
-@keyframes postIt4{
-    0% {transform: scale(8);opacity:0; }
-    100% {transform: scale(1);opacity: 1;}
-}
-@keyframes postIt5{
-    0% {transform: scale(8);opacity:0; }
-    100% {transform: scale(1);opacity: 1;}
-}
-@keyframes postIt6{
-    0% {transform: scale(8);opacity:0; }
-    100% {transform: scale(1);opacity: 1;}
-}
-@keyframes postIt7{
-    0% {transform: scale(8);opacity:0; }
-    100% {transform: scale(1);opacity: 1;}
-}
-@keyframes postIt8{
+@keyframes postIt{
     0% {transform: scale(8);opacity:0; }
     100% {transform: scale(1);opacity: 1;}
 }
