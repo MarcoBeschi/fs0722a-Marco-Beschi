@@ -1,0 +1,27 @@
+@import 'variabile';
+@import 'bottone';
+@import 'navbar';
+
+.container{
+    background-color: $sfondo;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.contenuto{
+    height: auto;
+    margin:0 $margin;
+    margin-top: 50px;
+    img{
+        float: right;
+    }
+    div{
+        padding-top: 50px;
+        h1{
+            font-size: 3.5rem;
+            margin-bottom: auto;
+        }
+        p{
+            font-weight: $grassetto;
+        }
+    }
+}

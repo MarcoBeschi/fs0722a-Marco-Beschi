@@ -1,0 +1,66 @@
+.btn {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  background-color: dodgerblue;
+  padding: 30px;
+  color: #ffffff;
+}
+.btn:hover {
+  transform: scale(1.3);
+}
+
+.btn2 {
+  padding: 30px;
+  color: #ffffff;
+  background-color: #ffa500;
+}
+.btn2:hover {
+  transform: scale(1.3);
+}
+
+nav {
+  padding-top: 30px;
+}
+nav span {
+  margin-left: 200px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+nav ul {
+  display: flex;
+  float: right;
+  margin-right: 200px;
+}
+nav ul li {
+  list-style-type: none;
+  margin-right: 30px;
+  color: white;
+}
+nav ul li:hover {
+  color: #ffa500;
+  transform: scale(1.3);
+}
+
+.container {
+  background-color: #8a2be2;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.contenuto {
+  height: auto;
+  margin: 0 200px;
+  margin-top: 50px;
+}
+.contenuto img {
+  float: right;
+}
+.contenuto div {
+  padding-top: 50px;
+}
+.contenuto div h1 {
+  font-size: 3.5rem;
+  margin-bottom: auto;
+}
+.contenuto div p {
+  font-weight: bold;
+}/*# sourceMappingURL=esercizio.css.map */

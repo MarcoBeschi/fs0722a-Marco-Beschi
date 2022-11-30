@@ -1,0 +1,22 @@
+nav{
+    padding-top:$padding;
+    span{
+        margin-left: $margin;
+        font-weight: $grassetto;
+        font-size: 2rem;
+    }
+    ul{
+        display: flex;
+        float: right;
+        margin-right: $margin;
+        li{
+            list-style-type: none;
+            margin-right:$padding;
+            color: white;
+            &:hover{
+                color: $hoverNav;
+                transform: $ingrandisci;
+            }
+        }
+    }
+}

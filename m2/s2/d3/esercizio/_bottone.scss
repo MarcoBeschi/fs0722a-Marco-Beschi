@@ -1,0 +1,19 @@
+.btn{
+    margin-top: $padding;
+    margin-bottom: 100px;
+    background-color: dodgerblue;
+    padding: $padding;
+    color:$bianco;
+    &:hover{
+        transform: $ingrandisci;
+    }
+}
+
+.btn2{
+    padding: $padding;
+    color: $bianco;
+    background-color: $hoverNav;
+    &:hover{
+        transform: $ingrandisci;
+    }
+}
