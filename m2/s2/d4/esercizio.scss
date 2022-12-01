@@ -1,0 +1,9 @@
+@import'variabili';
+@import'navbar';
+@import 'sidebar';
+@import 'container';
+@import 'footer';
+@import'form';
+body{
+    font-family: $font;
+}

@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+header {
+  background-color: aqua;
+  padding: 7px 10px;
+  border-radius: 20px;
+  border: 1px solid white;
+  outline: 1px solid blue;
+  box-shadow: 2px -3px 6px blue;
+  margin: 5px;
+}
+header a {
+  text-decoration: none;
+  color: #ffffff;
+}
+header a:hover {
+  text-decoration: underline;
+  color: black;
+}
+header li {
+  list-style: none;
+  margin-right: 20px;
+  font-style: italic;
+  font-size: 1.5rem;
+  display: inline;
+}
+
+.sidebar {
+  display: flex;
+  float: right;
+  margin-right: 10%;
+}
+.sidebar li {
+  list-style: none;
+  margin: 20px 0px;
+  font-size: 1.5em;
+  border-bottom: 1px dotted black;
+  width: 200px;
+}
+
+.article1, .article2, .article3 {
+  margin-left: 10%;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  line-height: 25px;
+}
+.article1 button, .article2 button, .article3 button {
+  padding: 10px;
+  background: orange;
+  color: white;
+}
+
+.article2, .article3 {
+  width: 60%;
+}
+
+.article3 .name {
+  font-style: italic;
+}
+
+footer {
+  height: 30px;
+  background-color: aqua;
+  padding: 7px 10px;
+  border-radius: 20px;
+  border: 1px solid white;
+  outline: 1px solid blue;
+  margin: 5px;
+}
+
+form {
+  width: 400px;
+  height: 130px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border: 2px solid grey;
+}
+form input {
+  display: block;
+}
+
+span {
+  position: relative;
+  top: 13px;
+  left: 15px;
+  background-color: white;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}/*# sourceMappingURL=esercizio.css.map */

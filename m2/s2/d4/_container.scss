@@ -1,0 +1,23 @@
+.article1{
+    margin-left: 10%;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    line-height: 25px;
+    button{
+        padding: 10px;
+        background: orange;
+        color: white;
+    }
+}
+
+.article2{
+    @extend .article1;
+    width:60%;
+}
+
+.article3{
+    @extend .article2;
+    .name{
+        font-style: $corsivo;
+    }
+}

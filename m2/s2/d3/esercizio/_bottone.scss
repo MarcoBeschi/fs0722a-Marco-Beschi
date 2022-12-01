@@ -1,11 +1,12 @@
 .btn{
     margin-top: $padding;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     background-color: dodgerblue;
     padding: $padding;
     color:$bianco;
     &:hover{
         transform: $ingrandisci;
+        cursor: $mano;
     }
 }
 
@@ -15,5 +16,6 @@
     background-color: $hoverNav;
     &:hover{
         transform: $ingrandisci;
+        cursor: $mano;
     }
 }
