@@ -1,0 +1,56 @@
+article {
+    i {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    p {
+        font-weight: 600;
+        padding: auto 30px;
+    }
+}
+
+.svg {
+    position: absolute;
+    top: 600px;
+    z-index: -1;
+}
+
+h2 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 400;
+
+}
+
+#partnership {
+    margin-top: 200px;
+    img {
+        padding: 10px 5%;
+    }
+}
+svg{
+    border: none;
+}
+
+.carousel-item{
+    margin-top: 3%;
+    text-align: center;
+    p{
+        margin: 20px 20%;
+        line-height: 2em;
+    }
+    img{
+        width: 5%;
+        border-radius: 50%;
+    }
+    h4{
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+}
+

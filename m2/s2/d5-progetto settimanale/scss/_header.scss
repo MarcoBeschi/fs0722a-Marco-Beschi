@@ -1,0 +1,47 @@
+nav{
+    background-color: $viola;
+    font-size: 1.2rem;
+    .navbar-brand{
+        padding-left: 50px;
+        color: $bianco;
+        font-weight:$grassetto;
+    }
+    .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+        color: $rosso;
+        font-weight: $grassetto;
+        cursor: $mano;
+        
+        &.home{
+            color: $bianco;
+        }
+    }
+}
+
+.contenitore{
+    height: 800px;
+    background-image: url(../img/pexels-aleksandar-pasaric-325185.jpg);
+    background-position: center;
+  background-size: cover;
+
+ 
+    h1{
+        padding: 20px 40px;
+        font-size: 4rem;
+        font-weight: 400;
+        box-sizing: border-box;
+
+    }
+    h5{
+        padding: 0px 40px;
+        font-weight: 400;
+        box-sizing: border-box;
+    }
+    button{
+        background-color:$viola;
+        color: $bianco;
+        padding: 10px;
+        margin-left: 40px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+}

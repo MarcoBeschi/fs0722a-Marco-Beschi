@@ -1,0 +1,111 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+nav {
+  background-color: #8400ff;
+  font-size: 1.2rem;
+}
+nav .navbar-brand {
+  padding-left: 50px;
+  color: #ffffff;
+  font-weight: bold;
+}
+nav .navbar-nav .nav-link.active, nav .navbar-nav .show > .nav-link {
+  color: #ff0000;
+  font-weight: bold;
+  cursor: pointer;
+}
+nav .navbar-nav .nav-link.active.home, nav .navbar-nav .show > .nav-link.home {
+  color: #ffffff;
+}
+
+.contenitore {
+  height: 800px;
+  background-image: url(../img/pexels-aleksandar-pasaric-325185.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.contenitore h1 {
+  padding: 20px 40px;
+  font-size: 4rem;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+.contenitore h5 {
+  padding: 0px 40px;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+.contenitore button {
+  background-color: #8400ff;
+  color: #ffffff;
+  padding: 10px;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+article i {
+  font-size: 3rem;
+}
+article h3 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+article p {
+  font-weight: 600;
+  padding: auto 30px;
+}
+
+.svg {
+  position: absolute;
+  top: 600px;
+  z-index: -1;
+}
+
+h2 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+#partnership {
+  margin-top: 200px;
+}
+#partnership img {
+  padding: 10px 5%;
+}
+
+svg {
+  border: none;
+}
+
+.carousel-item {
+  margin-top: 3%;
+  text-align: center;
+}
+.carousel-item p {
+  margin: 20px 20%;
+  line-height: 2em;
+}
+.carousel-item img {
+  width: 5%;
+  border-radius: 50%;
+}
+.carousel-item h4 {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #8400ff;
+  color: #ffffff;
+}
+footer h5 {
+  font-size: 1.5rem;
+}
+footer .col-md-3 {
+  margin: 40px 0px;
+}
+
+body {
+  overflow-x: hidden;
+}/*# sourceMappingURL=index.css.map */

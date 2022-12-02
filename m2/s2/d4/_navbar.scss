@@ -5,16 +5,18 @@ header {
     border: 1px solid white;
     outline: 1px solid blue;
     box-shadow: 2px -3px 6px blue;
-   margin: 5px;
-   a{
-    text-decoration: none;
-    color: $bianco;
-    &:hover{
-        text-decoration: underline;
-        color: black;
+    margin: 5px;
+
+    a {
+        text-decoration: none;
+        color: $bianco;
+
+        &:hover {
+            text-decoration: underline;
+            color: black;
+        }
     }
 
-   }
     li {
         list-style: none;
         margin-right: 20px;
