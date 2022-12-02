@@ -1,0 +1,28 @@
+
+
+@mixin device ($breakpoint) {
+
+    @if $breakpoint == mobile {
+        @media screen and (min-width: 350px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == tablet {
+        @media screen and (min-width:576px){
+            @content;
+        }
+    }
+}
+.cambio{
+    @include device(mobile) {
+        background-color: $nero;
+        color:$bianco;
+        max-width: 100%;
+    }
+    @include device(tablet) {
+        background-color: $bianco;
+        color: $nero;
+        max-width: 100%;
+    }
+}

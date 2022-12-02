@@ -43,10 +43,6 @@ nav .navbar-nav .nav-link.active.home, nav .navbar-nav .show > .nav-link.home {
   border-radius: 10px;
 }
 
-header {
-  max-width: 100%;
-}
-
 article i {
   font-size: 3rem;
 }
@@ -59,6 +55,12 @@ article p {
   padding: auto 30px;
 }
 
+.svg {
+  position: absolute;
+  top: 600px;
+  z-index: -1;
+}
+
 h2 {
   text-align: center;
   font-size: 4rem;
@@ -67,7 +69,6 @@ h2 {
 
 #partnership {
   margin-top: 200px;
-  max-width: 100%;
 }
 #partnership img {
   padding: 10px 5%;
@@ -75,7 +76,6 @@ h2 {
 
 svg {
   border: none;
-  max-width: 100%;
 }
 
 .carousel-item {
@@ -95,19 +95,9 @@ svg {
   margin-bottom: 50px;
 }
 
-main {
-  max-width: 100%;
-}
-
-div#articoli.row.articoli {
-  max-width: 100%;
-  background-color: gray;
-}
-
 footer {
   background-color: #8400ff;
   color: #ffffff;
-  max-width: 100%;
 }
 footer h5 {
   font-size: 1.5rem;
@@ -120,21 +110,15 @@ footer .col-md-3 {
   .cambio {
     background-color: #000000;
     color: #ffffff;
-    max-width: 100%;
   }
 }
 @media screen and (min-width: 576px) {
   .cambio {
     background-color: #ffffff;
     color: #000000;
-    max-width: 100%;
   }
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body {
-  max-width: 100%;
+  overflow-x: hidden;
 }/*# sourceMappingURL=index.css.map */

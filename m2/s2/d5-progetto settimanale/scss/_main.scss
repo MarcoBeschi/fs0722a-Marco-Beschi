@@ -14,12 +14,6 @@ article {
     }
 }
 
-.svg {
-    position: absolute;
-    top: 600px;
-    z-index: -1;
-}
-
 h2 {
     text-align: center;
     font-size: 4rem;
@@ -29,12 +23,14 @@ h2 {
 
 #partnership {
     margin-top: 200px;
+    max-width: 100%;
     img {
         padding: 10px 5%;
     }
 }
 svg{
     border: none;
+    max-width: 100%;
 }
 
 .carousel-item{
@@ -54,3 +50,10 @@ svg{
     }
 }
 
+main{
+    max-width: 100%;
+}
+div#articoli.row.articoli{
+    max-width: 100%;
+    background-color: gray;
+}
