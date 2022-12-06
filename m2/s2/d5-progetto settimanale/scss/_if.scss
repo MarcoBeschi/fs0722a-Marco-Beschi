@@ -19,10 +19,16 @@
         background-color: $nero;
         color:$bianco;
         max-width: 100%;
+        div#articoli.row.articoli{
+            background-color: gray;
+        }
     }
     @include device(tablet) {
         background-color: $bianco;
         color: $nero;
         max-width: 100%;
+        article{
+            background-color: grey !important;
+        }
     }
 }

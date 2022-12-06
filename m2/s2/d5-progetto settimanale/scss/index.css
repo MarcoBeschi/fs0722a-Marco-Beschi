@@ -101,7 +101,7 @@ main {
 
 div#articoli.row.articoli {
   max-width: 100%;
-  background-color: gray;
+  background-color: gray !important;
 }
 
 footer {
@@ -122,12 +122,18 @@ footer .col-md-3 {
     color: #ffffff;
     max-width: 100%;
   }
+  .cambio div#articoli.row.articoli {
+    background-color: gray;
+  }
 }
 @media screen and (min-width: 576px) {
   .cambio {
     background-color: #ffffff;
     color: #000000;
     max-width: 100%;
+  }
+  .cambio article {
+    background-color: grey !important;
   }
 }
 
