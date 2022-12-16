@@ -14,5 +14,13 @@
     "gender": "Female",
     "profileURL": "../img2/female.png",
     "email": "jane.doe@example.com"
+  },
+  {
+    "username": "jane",
+    "firstName": "marco",
+    "lastName": "beschi",
+    "gender": "Female",
+    "profileURL": "../img2/female.png",
+    "email": "jane.doe@example.com"
   }
 ]
