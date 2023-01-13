@@ -1,0 +1,30 @@
+<div class="container text-center">
+  <h1 class="my-2 display-1">Todo List</h1>
+<div class="d-flex">
+  <div class="input-group">
+
+  <input class="rounded" type="text" #task placeholder="Inserisci nuova task..." />
+  </div>
+  <button
+    type="button"
+    (click)="aggiungi(task.value)"
+    class="btn btn-dark mx-2"
+  >
+    AGGIUNGI
+  </button>
+</div>
+  <div *ngIf="lista.length <= 0" class="my-2">
+    <h2>Non ci sono task</h2>
+  </div>
+
+  <ul *ngFor="let ogg of lista" class="list-group my-2 text-center">
+    <div *ngIf="ogg.completed == false">
+      <li class="list-group-ogg fs-4">
+        {{ ogg.title }}
+        <button class="btn btn-success" (click)="completato(ogg.id)">
+          <i class="bi bi-check"></i>
+        </button>
+      </li>
+    </div>
+  </ul>
+</div>

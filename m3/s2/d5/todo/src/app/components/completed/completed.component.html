@@ -1,0 +1,22 @@
+<h1 class="my-2 display-1">Completati</h1>
+
+<div *ngIf="load == true">
+  <ul *ngFor="let ogg of completati" class="list-group text-center ">
+    <div *ngIf="ogg.completed == true">
+      <li class="list-group-ogg fs-4">
+        {{ ogg.title }}
+        <button class="btn btn-danger" (click)="rimuovi(ogg.id)">
+          <i class="bi bi-trash"></i>
+        </button>
+      </li>
+    </div>
+  </ul>
+</div>
+
+<div *ngIf="load == false">
+  <h2 class="text-center">Caricamento...</h2>
+</div>
+
+<div *ngIf="completati.length <= 0 && load == true">
+  <h2>Non ci sono task completate.</h2>
+</div>
