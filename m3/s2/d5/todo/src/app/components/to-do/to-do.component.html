@@ -5,13 +5,7 @@
 
   <input class="rounded" type="text" #task placeholder="Inserisci nuova task..." />
   </div>
-  <button
-    type="button"
-    (click)="aggiungi(task.value)"
-    class="btn btn-dark mx-2"
-  >
-    AGGIUNGI
-  </button>
+  <button type="button"(click)="aggiungi(task.value)"class="btn btn-dark mx-2">AGGIUNGI</button>
 </div>
   <div *ngIf="lista.length <= 0" class="my-2">
     <h2>Non ci sono task</h2>
