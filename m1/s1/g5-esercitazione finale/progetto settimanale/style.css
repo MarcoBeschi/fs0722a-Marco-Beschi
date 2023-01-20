@@ -49,8 +49,7 @@ header img{
     margin-bottom: 30px;
 }
 
-
-
+                    /*FINE HEADER INIZIO MAIN*/
 
 .inizio{
     background-image:url(../FE-S1-P-Esercizio/images/banner.jpg);
@@ -87,10 +86,12 @@ h3{
     padding-top: 20px;
 }
 
+                        /*FOTO PC BORDO CURVO*/
 #notebook{
     border-radius: 50%;
     padding: 30px;
 }
+
 
 #testimonianze, #testimonianze h1{
     background-color: #e22d0e;
@@ -124,7 +125,7 @@ h3{
 .link p{
     padding: 20px;
 }
-
+                        /*FINE MAIN INIZIO FOOTER*/
 footer{
     background-color: #25a2c3;
     text-decoration:none;

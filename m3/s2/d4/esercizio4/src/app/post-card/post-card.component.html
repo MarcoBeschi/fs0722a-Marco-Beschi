@@ -5,7 +5,7 @@
     'bg-danger': post.type == 'politics'
 }">
     <div class="card-body">
-      <h4><span appSfondo>Post</span></h4>
+      <h1><span appSfondo>post</span></h1>
         <h5 class="card-title" >{{post.id}} - {{post.title | uppercase}} </h5>
         <p class="card-text">{{post.body}}</p>
         <a class="btn btn-warning" [routerLink]="'/dettagli/'+[post.id]">Dettagli</a>

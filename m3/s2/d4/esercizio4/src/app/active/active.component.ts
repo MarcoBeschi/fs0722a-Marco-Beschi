@@ -18,7 +18,7 @@ export class ActiveComponent implements OnInit {
   ngOnInit(): void {}
 
   disattiva(id:number) {
-    console.log(id);
+    console.log(id)
     //togliere l'elemento dall'array per la visualizzazione
     //questa modifica si vede subito perchè modifica l'array "locale"
     this.posts = this.posts.filter(p=>p.id!=id)
