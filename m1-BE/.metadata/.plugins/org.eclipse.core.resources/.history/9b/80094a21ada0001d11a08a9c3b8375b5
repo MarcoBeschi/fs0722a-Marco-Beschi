@@ -1,0 +1,31 @@
+package esercizi;
+
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x=5;
+		int y=5;
+		int somma=x*y;
+		System.out.println(somma);
+		
+		String a = "Io ho :";
+		String s = String.valueOf(somma);
+		System.out.println(a + s + " anni");
+		
+		
+		String[] animali ;
+		animali = new String[5];
+		
+		
+		
+		Scanner dati = new Scanner(System.in);
+		System.out.println("Scrivi il tuo nome: ");
+		System.out.println("Scrivi il tuo cognnome: ");
+		System.out.println("Scrivi dove abiti: ");
+	}
+
+}

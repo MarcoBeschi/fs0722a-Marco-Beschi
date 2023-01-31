@@ -55,7 +55,28 @@
       "id": 9
     }
   ],
-  "favorites": [],
+  "favorites": [
+    {
+      "idFilm": 635302,
+      "accountId": 1,
+      "id": 1
+    },
+    {
+      "idFilm": 460465,
+      "accountId": 1,
+      "id": 2
+    },
+    {
+      "idFilm": 578701,
+      "accountId": 1,
+      "id": 4
+    },
+    {
+      "idFilm": 567189,
+      "accountId": 9,
+      "id": 5
+    }
+  ],
   "genres": [
     {
       "id": 28,

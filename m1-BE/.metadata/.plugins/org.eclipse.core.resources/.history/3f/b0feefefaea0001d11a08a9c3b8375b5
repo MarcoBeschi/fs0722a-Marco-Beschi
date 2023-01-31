@@ -1,0 +1,47 @@
+package esercizi;
+
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x=5;
+		int y=5;
+		int somma=x*y;
+		System.out.println(somma);
+		
+		String a = "Io ho :";
+		String s = String.valueOf(somma);
+		System.out.println(a + s + " anni");
+		
+		
+		String[] animali ;
+		animali = new String[5];
+		
+		//-------------------esercizio3
+		/*
+		Scanner dati = new Scanner(System.in);
+		System.out.println("Scrivi il tuo nome: ");
+		String dato1 = dati.nextLine();
+		System.out.println("Scrivi il tuo cognome: ");
+		String dato2 = dati.nextLine();
+		System.out.println("Scrivi dove abiti: ");
+		String dato3 = dati.nextLine();
+		System.out.println("Ciao " + dato1 +" "+ dato2 +" "+ dato3 );
+		System.out.println("Ciao " + dato3 +" "+ dato2 +" "+ dato1 );
+		*/
+		
+		//---------------------esercizio4
+		
+		
+		double latoA= 12.3;
+		double latoB= 7.8;
+		double perimetroRettangolo=latoA + latoB + latoA+latoB;
+		
+		
+		System.out.println(perimetroRettangolo);
+	}
+
+}
