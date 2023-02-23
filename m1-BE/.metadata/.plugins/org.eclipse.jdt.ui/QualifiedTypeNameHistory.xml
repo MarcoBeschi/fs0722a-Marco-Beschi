@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="model.Ticket.Biglietto"/>
+    <fullyQualifiedTypeName name="model.Mezzo.Mezzo"/>
+    <fullyQualifiedTypeName name="model.Biglietteria.RivenditoreAutorizzato"/>
+    <fullyQualifiedTypeName name="model.Biglietteria.RivenditoreAutomatico"/>
+    <fullyQualifiedTypeName name="model.Ticket.Abbonamento"/>
+    <fullyQualifiedTypeName name="model.Mezzo.Tram"/>
+    <fullyQualifiedTypeName name="model.Ticket.Periodicita"/>
+    <fullyQualifiedTypeName name="dao.Biglietteria_Dao"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Enumerated"/>
+    <fullyQualifiedTypeName name="javax.persistence.EnumType"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="dao.Mezzo_Dao"/>
 </qualifiedTypeNameHistroy>
