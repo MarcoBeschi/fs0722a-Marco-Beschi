@@ -662,3 +662,9 @@ Caused by: java.lang.Exception: File not found: C:\Users\besch\OneDrive\Desktop\
 	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
 	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
 	... 27 common frames omitted
+2023-03-03 09:08:10,579 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-03 09:09:10,071 [Worker-34: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Esercizio_Settimanale2:Esercizio_Settimanale2:0.0.1-SNAPSHOT @ C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\s3\d5-progetto settimanale\pom.xml.
+2023-03-03 09:09:11,440 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-03 09:09:11,442 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\s3\d5-progetto settimanale\src\main\resources
+2023-03-03 09:09:11,445 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-03 09:09:11,446 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\s3\d5-progetto settimanale\src\test\resources
