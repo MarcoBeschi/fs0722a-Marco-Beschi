@@ -47,7 +47,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+		<dependency>
+			<groupId>com.GestioneDispositivi</groupId>
+			<artifactId>GestioneDispositivi</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		</dependencies>
 
 	<build>
 		<plugins>

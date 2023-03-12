@@ -27,4 +27,19 @@
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.Eserciziod2s6.services.IstruzioniService"/>
+    <fullyQualifiedTypeName name="com.azienda.gestione.dispositivi.repository.UtenteRepository"/>
+    <fullyQualifiedTypeName name="auth.service.JwtService"/>
+    <fullyQualifiedTypeName name="auth.service.AuthenticationService"/>
+    <fullyQualifiedTypeName name="auth.payload.AuthenticationResponse"/>
+    <fullyQualifiedTypeName name="auth.payload.AuthenticationRequest"/>
+    <fullyQualifiedTypeName name="service.UtenteService"/>
+    <fullyQualifiedTypeName name="service.DispositivoService"/>
+    <fullyQualifiedTypeName name="model.Ruolo"/>
+    <fullyQualifiedTypeName name="repository.DispositivoRepository"/>
+    <fullyQualifiedTypeName name="model.Dispositivo"/>
+    <fullyQualifiedTypeName name="repository.UtenteRepository"/>
+    <fullyQualifiedTypeName name="model.TipoDispositivo"/>
+    <fullyQualifiedTypeName name="model.StatoDispositivo"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="com.GestionePrenotazioni.model.Utente"/>
 </qualifiedTypeNameHistroy>
