@@ -1400,3 +1400,149 @@ Caused by: java.lang.Exception: File not found: C:\Users\besch\OneDrive\Desktop\
 2023-03-17 16:11:34,337 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2023-03-17 16:11:34,349 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-03-17 16:11:34,349 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\s4\BuildWeekJava1\src\test\resources
+2023-03-18 15:13:59,931 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-19 14:21:42,054 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-19 14:21:47,588 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-19 14:21:47,606 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-19 14:21:47,638 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-19 14:21:47,640 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\s4\BuildWeekJava1\src\test\resources
+2023-03-19 14:21:56,814 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-19 14:21:56,817 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-19 14:21:56,824 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-19 14:21:56,826 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\Eserciziod2s6\src\test\resources
+2023-03-19 14:21:58,036 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.0.4/spring-boot-starter-web-services-3.0.4.pom
+2023-03-19 14:21:58,064 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.0.4/spring-boot-starter-web-services-3.0.4.pom
+2023-03-19 14:21:58,085 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/3.0.0/saaj-impl-3.0.0.pom
+2023-03-19 14:21:58,117 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/3.0.0/saaj-impl-3.0.0.pom
+2023-03-19 14:21:58,135 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/metro-saaj/3.0.0/metro-saaj-3.0.0.pom
+2023-03-19 14:21:58,164 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/metro-saaj/3.0.0/metro-saaj-3.0.0.pom
+2023-03-19 14:21:58,194 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.0/jakarta.xml.soap-api-3.0.0.pom
+2023-03-19 14:21:58,224 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.0/jakarta.xml.soap-api-3.0.0.pom
+2023-03-19 14:21:58,247 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/2.1.0/stax-ex-2.1.0.pom
+2023-03-19 14:21:58,285 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/2.1.0/stax-ex-2.1.0.pom
+2023-03-19 14:21:58,323 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.0/jakarta.xml.ws-api-4.0.0.pom
+2023-03-19 14:21:58,365 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.0/jakarta.xml.ws-api-4.0.0.pom
+2023-03-19 14:21:58,397 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.0.6/spring-oxm-6.0.6.pom
+2023-03-19 14:21:58,425 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.0.6/spring-oxm-6.0.6.pom
+2023-03-19 14:21:58,449 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/4.0.2/spring-ws-core-4.0.2.pom
+2023-03-19 14:21:58,482 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/4.0.2/spring-ws-core-4.0.2.pom
+2023-03-19 14:21:58,514 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws/4.0.2/spring-ws-4.0.2.pom
+2023-03-19 14:21:58,605 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws/4.0.2/spring-ws-4.0.2.pom
+2023-03-19 14:21:58,654 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/6.0.1/spring-security-bom-6.0.1.pom
+2023-03-19 14:21:58,693 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/6.0.1/spring-security-bom-6.0.1.pom
+2023-03-19 14:21:58,727 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/11.0.12/jetty-bom-11.0.12.pom
+2023-03-19 14:21:58,759 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/11.0.12/jetty-bom-11.0.12.pom
+2023-03-19 14:21:58,781 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/4.0.2/spring-xml-4.0.2.pom
+2023-03-19 14:21:58,899 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/4.0.2/spring-xml-4.0.2.pom
+2023-03-19 14:21:59,062 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/2.1.0/stax-ex-2.1.0.jar
+2023-03-19 14:21:59,099 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.0/jakarta.xml.soap-api-3.0.0.jar
+2023-03-19 14:21:59,121 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.0/jakarta.xml.ws-api-4.0.0.jar
+2023-03-19 14:21:59,132 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/3.0.0/saaj-impl-3.0.0.jar
+2023-03-19 14:21:59,224 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.0.4/spring-boot-starter-web-services-3.0.4.jar
+2023-03-19 14:21:59,408 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.0/jakarta.xml.ws-api-4.0.0.jar
+2023-03-19 14:21:59,408 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.0.4/spring-boot-starter-web-services-3.0.4.jar
+2023-03-19 14:21:59,408 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/2.1.0/stax-ex-2.1.0.jar
+2023-03-19 14:21:59,548 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/4.0.2/spring-xml-4.0.2.jar
+2023-03-19 14:21:59,548 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/4.0.2/spring-ws-core-4.0.2.jar
+2023-03-19 14:21:59,613 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.0.6/spring-oxm-6.0.6.jar
+2023-03-19 14:21:59,631 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.0/jakarta.xml.soap-api-3.0.0.jar
+2023-03-19 14:21:59,792 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/3.0.0/saaj-impl-3.0.0.jar
+2023-03-19 14:21:59,912 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/4.0.2/spring-xml-4.0.2.jar
+2023-03-19 14:21:59,970 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.0.6/spring-oxm-6.0.6.jar
+2023-03-19 14:22:00,012 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/4.0.2/spring-ws-core-4.0.2.jar
+2023-03-19 14:22:01,468 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.rilevamentoincendi:rilevamentoincendi:0.0.1-SNAPSHOT @ C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\GestioneIncendi\pom.xml.
+2023-03-19 14:22:02,158 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:22:02,168 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-19 14:22:02,171 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\GestioneIncendi\src\test\resources
+2023-03-19 14:22:02,709 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-19 14:22:02,709 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-19 14:22:02,712 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\GestioneIncendi\src\test\resources
+2023-03-19 14:22:02,967 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.0.4/spring-boot-starter-web-services-3.0.4-sources.jar
+2023-03-19 14:22:03,024 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.0.4/spring-boot-starter-web-services-3.0.4-sources.jar
+2023-03-19 14:22:03,028 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-web-services:3.0.4
+2023-03-19 14:22:03,178 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/3.0.0/saaj-impl-3.0.0-sources.jar
+2023-03-19 14:22:03,237 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:22:03,275 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-19 14:22:03,279 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\Lezione7\src\test\resources
+2023-03-19 14:22:03,527 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/3.0.0/saaj-impl-3.0.0-sources.jar
+2023-03-19 14:22:03,532 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.xml.messaging.saaj:saaj-impl:3.0.0
+2023-03-19 14:22:03,546 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-19 14:22:03,548 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\s3\d5-progetto settimanale\src\main\resources
+2023-03-19 14:22:03,552 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-19 14:22:03,553 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\s3\d5-progetto settimanale\src\test\resources
+2023-03-19 14:22:03,588 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.0/jakarta.xml.soap-api-3.0.0-sources.jar
+2023-03-19 14:22:03,654 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/3.0.0/jakarta.xml.soap-api-3.0.0-sources.jar
+2023-03-19 14:22:03,659 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.xml.soap:jakarta.xml.soap-api:3.0.0
+2023-03-19 14:22:03,760 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/2.1.0/stax-ex-2.1.0-sources.jar
+2023-03-19 14:22:03,766 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-19 14:22:03,769 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-19 14:22:03,779 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-19 14:22:03,782 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\s3\progettoSettimanale\src\test\resources
+2023-03-19 14:22:03,942 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/2.1.0/stax-ex-2.1.0-sources.jar
+2023-03-19 14:22:03,946 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jvnet.staxex:stax-ex:2.1.0
+2023-03-19 14:22:04,084 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.0/jakarta.xml.ws-api-4.0.0-sources.jar
+2023-03-19 14:22:04,174 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.0/jakarta.xml.ws-api-4.0.0-sources.jar
+2023-03-19 14:22:04,178 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.xml.ws:jakarta.xml.ws-api:4.0.0
+2023-03-19 14:22:04,257 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.0.6/spring-oxm-6.0.6-sources.jar
+2023-03-19 14:22:04,284 [Worker-38: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/GestionePrenotazioni: com.GestionePrenotazioni:GestionePrenotazioni:0.0.1-SNAPSHOT with classifier  to /GestionePrenotazioni/target/classes
+2023-03-19 14:22:04,426 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:22:04,460 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-19 14:22:04,468 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\GestioneDispositivi\src\test\resources
+2023-03-19 14:22:04,514 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.0.6/spring-oxm-6.0.6-sources.jar
+2023-03-19 14:22:04,519 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-oxm:6.0.6
+2023-03-19 14:22:04,591 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/4.0.2/spring-ws-core-4.0.2-sources.jar
+2023-03-19 14:22:04,802 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/4.0.2/spring-ws-core-4.0.2-sources.jar
+2023-03-19 14:22:04,804 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.ws:spring-ws-core:4.0.2
+2023-03-19 14:22:04,946 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/4.0.2/spring-xml-4.0.2-sources.jar
+2023-03-19 14:22:05,032 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/4.0.2/spring-xml-4.0.2-sources.jar
+2023-03-19 14:22:05,034 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.ws:spring-xml:4.0.2
+2023-03-19 14:22:05,221 [Worker-28: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/GestioneDispositivi: com.GestioneDispositivi:GestioneDispositivi:0.0.1-SNAPSHOT with classifier  to /GestioneDispositivi/target/classes
+2023-03-19 14:22:05,363 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:22:05,393 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-19 14:22:05,397 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\s5\GestionePrenotazioni\src\test\resources
+2023-03-19 14:23:47,217 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-19 14:25:33,384 [Worker-36: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.GestioneIncendi:GestioneIncendi:0.0.1-SNAPSHOT @ C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\GestioneIncendi\pom.xml.
+2023-03-19 14:25:34,088 [Worker-36: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GestioneIncendi/src/main/java
+2023-03-19 14:25:34,089 [Worker-36: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /GestioneIncendi/src/main/resources
+2023-03-19 14:25:34,104 [Worker-36: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /GestioneIncendi/src/main/resources
+2023-03-19 14:25:34,127 [Worker-36: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GestioneIncendi/src/test/java
+2023-03-19 14:25:34,773 [Worker-36: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2023-03-19 14:25:34,776 [Worker-36: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-19 14:25:34,897 [Worker-36: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.GestioneIncendi:GestioneIncendi:0.0.1-SNAPSHOT @ C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\GestioneIncendi\pom.xml.
+2023-03-19 14:25:35,298 [Worker-36: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GestioneIncendi/src/main/java
+2023-03-19 14:25:35,298 [Worker-36: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /GestioneIncendi/src/main/resources
+2023-03-19 14:25:35,298 [Worker-36: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /GestioneIncendi/src/main/resources
+2023-03-19 14:25:35,299 [Worker-36: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GestioneIncendi/src/test/java
+2023-03-19 14:25:35,744 [Worker-36: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2023-03-19 14:25:56,025 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.GestioneIncendi:GestioneIncendi:0.0.1-SNAPSHOT @ C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\GestioneIncendi\pom.xml.
+2023-03-19 14:25:56,424 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:25:56,437 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-19 14:25:56,441 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\GestioneIncendi\src\test\resources
+2023-03-19 14:26:32,617 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:26:32,625 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-19 14:26:32,629 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\GestioneIncendi\src\test\resources
+2023-03-19 14:26:36,445 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:26:36,452 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-19 14:26:36,455 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\GestioneIncendi\src\test\resources
+2023-03-19 14:26:56,142 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:26:56,147 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-19 14:26:56,150 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\GestioneIncendi\src\test\resources
+2023-03-19 14:27:56,200 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:27:56,205 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-19 14:27:56,207 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\GestioneIncendi\src\test\resources
+2023-03-19 14:28:35,210 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:28:35,229 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-19 14:28:35,233 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\GestioneIncendi\src\test\resources
+2023-03-19 14:28:42,130 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:28:42,140 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-19 14:28:42,149 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\GestioneIncendi\src\test\resources
+2023-03-19 14:29:10,041 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-19 14:29:10,042 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-19 14:29:10,047 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\GestioneIncendi\src\test\resources
+2023-03-19 14:30:08,789 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.rilevamentoincendi:rilevamentoincendi:0.0.1-SNAPSHOT @ C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\GestioneIncendi\pom.xml.
+2023-03-19 14:30:09,041 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:30:09,050 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-19 14:30:09,052 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\GestioneIncendi\src\test\resources
+2023-03-19 14:30:09,513 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-19 14:30:09,521 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-19 14:30:09,523 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\besch\OneDrive\Desktop\epicode\m1-BE\GestioneIncendi\src\test\resources
